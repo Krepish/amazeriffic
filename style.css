@@ -1,17 +1,48 @@
 body{
 	background: lightcyan;
-	width: 800px;
+}
+header, main, footer{
+	min-width: 855px;
+}
+header .container, main .container, footer .container {
+	max-width: 855px;
 	margin: auto;
 }
-main{
-	border: 1px solid red;
-	background-color: gray;
+header{
+	background: white;
 	overflow: auto;
 }
-main div{
-	width: 400px;	
-	margin: 0;
+header h1{
 	float: left;
+	width: 570px;
+}
+header nav{
+	float: right;
+	width: 285px;
+}
+main{
+	background: white;
+	border: 1px solid red;
+	overflow: auto;
+}
+main .text{
+	float: left;
+	width: 570px;
+}
+main .image{
+	float: right;
+	width: 285px;
+}
+footer{
+	overflow: auto;
+}
+footer .contact{
+	float: left;
+	width: 570px;
+}
+.sitemap{
+float: right;
+width: 285px;
 }
 h1, h2, h3, h4, h5{
 	font-family: 'Indie Flower', cursive;
@@ -26,8 +57,7 @@ a:visited{
 a:hover{
 	text-decoration: underline;
 }
-img{
-	border: 1px solid green;
-	width:300px;
-	float: left;
+
+hr{
+
 }
