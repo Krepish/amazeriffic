@@ -1,0 +1,33 @@
+body{
+	background: lightcyan;
+	width: 800px;
+	margin: auto;
+}
+main{
+	border: 1px solid red;
+	background-color: gray;
+	overflow: auto;
+}
+main div{
+	width: 400px;	
+	margin: 0;
+	float: left;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Indie Flower', cursive;
+}
+a{
+	color:cornflowerblue;
+	text-decoration: none;
+}
+a:visited{
+	color: tomato;
+}
+a:hover{
+	text-decoration: underline;
+}
+img{
+	border: 1px solid green;
+	width:300px;
+	float: left;
+}
