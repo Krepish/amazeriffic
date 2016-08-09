@@ -1,5 +1,6 @@
 body{
 	background: lightcyan;
+	font-size: 100%;
 }
 header, main, footer{
 	min-width: 855px;
@@ -10,20 +11,29 @@ header .container, main .container, footer .container {
 }
 header{
 	background: white;
+	border: 1px solid red;
+	overflow: :hidden;
 	overflow: auto;
+}
+header .container{
+	margin-left, margin-bottom: 30px;
 }
 header h1{
 	float: left;
-	width: 570px;
+	width: 355px;
+
 }
 header nav{
 	float: right;
-	width: 285px;
+	width: 500px;
 }
 main{
 	background: white;
 	border: 1px solid red;
 	overflow: auto;
+}
+main .container{
+	min-height: 500px;
 }
 main .text{
 	float: left;
@@ -44,8 +54,36 @@ footer .contact{
 float: right;
 width: 285px;
 }
+.comment-input{
+	float:left;
+	width: 285px;
+}
+.comments{
+	float: right;
+	width: 570px;
+}
+.comments p{
+border: 1px solid black;
+border-radius: 4px;
+margin: 2px;
+}
+.comments p:nth-child(even){
+	background: lavender;
+}
+.comments p:nth-child(odd){
+	background: gainsboro;
+}
 h1, h2, h3, h4, h5{
 	font-family: 'Indie Flower', cursive;
+}
+h1{
+	font-size: xx-large;
+}
+h2{
+	font-size: x-large;
+}
+p, a{
+	font-size: 1.2em;
 }
 a{
 	color:cornflowerblue;
