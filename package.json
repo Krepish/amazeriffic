@@ -1,0 +1,10 @@
+{
+	"name": "amazeriffic",
+	"description": "The best to-do list app in the history of the world",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": ">=3.4.x",
+		"mongoose": ">=3.6.x",
+		"body-parser": ">=1.15.x"
+	}
+}

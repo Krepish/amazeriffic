@@ -1,0 +1,126 @@
+body{
+	background: lightcyan;
+	font-size: 100%;
+}
+header, main, footer{
+	min-width: 855px;
+}
+header .container, main .container, footer .container {
+	overflow: hidden;
+	max-width: 855px;
+	margin: auto;
+}
+header{
+	background: white;
+	border: 1px solid red;
+	overflow: auto;
+}
+header .container{
+	margin-left, margin-bottom: 30px;
+}
+header h1{
+	float: left;
+	width: 355px;
+
+}
+header nav{
+	float: right;
+	width: 500px;
+}
+main{
+	background: white;
+	border: 1px solid red;
+	overflow: auto;
+	padding: 10px;
+}
+main .container{
+	min-height: 450px;
+}
+main .text{
+	float: left;
+	width: 570px;
+}
+main .image{
+	float: right;
+	width: 285px;
+}
+.tabs a span{
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+.tabs a span.active{
+	background: #eee;
+}
+.content{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #eee;
+}
+.content li{
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 2px;
+	width: 845px;
+	height: 18px;
+	background: white;
+	padding: 2px;
+}
+.comment-input{
+	float:left;
+	width: 285px;
+}
+.comments{
+	float: right;
+	width: 570px;
+}
+.comments p{
+border: 1px solid black;
+border-radius: 4px;
+margin: 2px;
+}
+.comments p:nth-child(even){
+	background: lavender;
+}
+.comments p:nth-child(odd){
+	background: gainsboro;
+}
+footer{
+	overflow: auto;
+}
+footer .contact{
+	float: left;
+	width: 570px;
+}
+.sitemap{
+float: right;
+width: 285px;
+}
+
+
+h1, h2, h3, h4, h5{
+	font-family: 'Indie Flower', cursive;
+}
+h1{
+	font-size: xx-large;
+}
+h2{
+	font-size: x-large;
+}
+p, a{
+	font-size: 1.2em;
+}
+a{
+	color:cornflowerblue;
+	text-decoration: none;
+}
+a:visited{
+	color: tomato;
+}
+a:hover{
+	text-decoration: underline;
+}
